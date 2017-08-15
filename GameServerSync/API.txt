@@ -1,0 +1,20 @@
+﻿Após conectar
+	- O servidor retorna o UUID do cliente
+
+create_session|Nome - Cria uma nova sessão no servidor
+	- Retorna create_session_ok|UUID se a sessão foi criada com sucesso
+	- Retorna create_session_error|Mensagem de erro - se ocorreu algum problema na criação da sessão
+subscribe_session|uuid - Se inscreve em uma sessão existente no servidor
+	- Retorna subscribe_session_ok se o cliente se inscreveu com sucesso
+	- Retorna subscribe_session_error|Mensagem de erro - se ocorreu algum problema
+	- Dispara para todos os conectads new_subscriber|SESSION_ID|USER_ID
+unsubscribe_session|uuid - Remove um cliente de uma inscrição do servidor
+	- Retorna OK se o cliente conseguiu sair de uma inscrição com sucesso
+	- Retorna ERROR|Mensagem de erro - se ocorreu algum problema
+send_data|session_uuid|user_uuid|dados - Envia dados para todos que estão inscritos em uma sessão no servidor
+	- A sessão precisa existir previamente
+	- O cliente que envia precisa estar inscrito na sessão
+	- Retorna send_data_ok
+get_subscribers|uuid - Recupera a lista de todos os clientes inscritos em uma sessão
+	- Retorna OK|IP1:PORTA1|IP2:PORTA2|... para todos os clientes inscritos na sessão pesquisada 
+	- Retorna ERROR|Mensagem de erro - se ocorreu algum problema
