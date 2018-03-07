@@ -31,6 +31,8 @@ namespace SpaceMate
             this.FireRate = 500;
             this.ClientUUID = ClientUUID;
             this.isLocal = isLocal;
+            texture = this.Content.Load<Texture2D>("player1");
+            /*
             if (isLocal)
             {
                 texture = this.Content.Load<Texture2D>("player1");
@@ -38,6 +40,7 @@ namespace SpaceMate
             else {
                 texture = this.Content.Load<Texture2D>("player2");
             }
+            */
             origin.X = texture.Width / 2;
             origin.Y = texture.Height / 2;
             _position = new Vector2(graphics.GraphicsDevice.Viewport.Width/2, graphics.GraphicsDevice.Viewport.Height - Height);

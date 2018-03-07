@@ -1,0 +1,116 @@
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.exe.config
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\asteroid.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__000.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__001.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__002.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__003.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__004.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__005.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__006.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__007.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__008.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__009.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\laser.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\MainFont.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\player1.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\player2.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\powerup.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\rocket.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__000.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__001.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__002.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__003.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__004.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__005.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__006.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__007.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__008.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__009.xnb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.exe
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.pdb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\MonoGame.Framework.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.Common.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.NetworkClient.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.MediaFoundation.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XAudio2.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D11.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.DXGI.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct2D1.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XInput.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.RawInput.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D9.dll
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.Common.pdb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.NetworkClient.pdb
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\MonoGame.Framework.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.MediaFoundation.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XAudio2.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D11.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.DXGI.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct2D1.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XInput.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.RawInput.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D9.xml
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.csprojResolveAssemblyReference.cache
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.exe
+F:\GUILHERME\SOCIESC\Disciplina - TJG - Game Network Programming\Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.pdb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__001.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__000.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__002.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__003.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__007.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__006.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__004.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__005.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__009.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__008.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__000.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__001.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__003.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__002.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__006.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__007.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__005.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Idle__004.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__008.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\Run__009.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\laser.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\player1.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\powerup.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\player2.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\rocket.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\asteroid.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\Content\MainFont.xnb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.exe.config
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.exe
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.pdb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\MonoGame.Framework.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.Common.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.NetworkClient.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.MediaFoundation.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XAudio2.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.DXGI.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D11.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct2D1.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XInput.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D9.dll
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.Common.pdb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.Common.dll.config
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SpaceMate.NetworkClient.pdb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\MonoGame.Framework.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.MediaFoundation.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XAudio2.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.DXGI.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D11.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct2D1.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.XInput.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\bin\Windows\Release\SharpDX.Direct3D9.xml
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.csprojResolveAssemblyReference.cache
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.csproj.CoreCompileInputs.cache
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.exe
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.pdb
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.SpaceMateClient.resources
+Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate\obj\x86\Release\SpaceMate.csproj.GenerateResource.Cache

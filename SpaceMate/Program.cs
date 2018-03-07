@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace SpaceMate
 {
-#if WINDOWS || LINUX
     /// <summary>
     /// The main class.
     /// </summary>
@@ -15,6 +15,7 @@ namespace SpaceMate
         [STAThread]
         static void Main(String[] args)
         {
+            /*
             bool isHost = true;
             String sessionUUID = "";
             String serverIpAddress = "";
@@ -32,6 +33,7 @@ namespace SpaceMate
                     isHost = false;
                     int indexOfSession = args.Select((v, i) => new { parameter = v, index = i }).First(m => m.parameter.Contains("-session")).index;
                     sessionUUID = args[indexOfSession + 1];
+                    Console.WriteLine("Connecting to Session: " + sessionUUID);
                 }
             }
 
@@ -41,8 +43,14 @@ namespace SpaceMate
             serverPort = Convert.ToInt32(args[indexOfPort + 1]);
 
             using (var game = new SpaceMateGame(isHost, sessionUUID, serverIpAddress, serverPort))
+            {
                 game.Run();
+            }
+            */
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new SpaceMateClient());
+            
         }
     }
-#endif
 }

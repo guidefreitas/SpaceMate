@@ -25,6 +25,8 @@ namespace GameServerSync
         private String serverIp = "";
         private Int32 serverPort = 0;
 
+        private bool done = false;
+
         public GameServer(String ip, int port)
         {
             serverIp = ip;
@@ -34,8 +36,6 @@ namespace GameServerSync
             
             //Cria o socket e faz o binding no ip e porta especificados
             tcpListener = new TcpListener(IPAddress.Parse(ip), port);
-
-
 
         }
         
@@ -51,7 +51,7 @@ namespace GameServerSync
                     session.Subscribers.Add(client);
                     Sessions.Add(session);
                 }
-                Console.WriteLine("Session created: UUID: {0}, Name: {1}", session.UUID, session.Name);
+                Program.serverScreen.ShowMessage(String.Format("Session created: UUID: {0}, Name: {1}", session.UUID, session.Name));
                 String returnData = String.Format("create_session_ok|{0}", session.UUID);
                 client.StreamWriter.WriteLine(returnData);
                 client.StreamWriter.Flush();
@@ -98,9 +98,9 @@ namespace GameServerSync
                         subsStreamWriter.Flush();
                     }
                 }
-                
 
-                Console.WriteLine("Client {0} subscribed to session {1}", socketForClient.RemoteEndPoint, sessionUUID);
+
+                Program.serverScreen.ShowMessage(String.Format("Client {0} subscribed to session {1}", socketForClient.RemoteEndPoint, sessionUUID));
                 client.StreamWriter.WriteLine("subscribe_session_ok");
                 client.StreamWriter.Flush();
             }
@@ -203,7 +203,7 @@ namespace GameServerSync
                         session.Subscribers.Remove(client);
                     }
 
-                    Console.WriteLine("Client {0} unsubscribed to session {1}", socketForClient.RemoteEndPoint, sessionUUID);
+                    Program.serverScreen.ShowMessage(String.Format("Client {0} unsubscribed to session {1}", socketForClient.RemoteEndPoint, sessionUUID));
                     client.StreamWriter.WriteLine("unsubscribe_session_ok");
                     client.StreamWriter.Flush();
                 }
@@ -300,7 +300,7 @@ namespace GameServerSync
                     Clients.Add(client);
                 }
 
-                Console.WriteLine("Client:" + socketForClient.RemoteEndPoint + " now connected to server.");
+                Program.serverScreen.ShowMessage("Client:" + socketForClient.RemoteEndPoint + " now connected to server.");
                 NetworkStream networkStream = new NetworkStream(socketForClient);
 
 
@@ -319,10 +319,10 @@ namespace GameServerSync
                         if (String.IsNullOrEmpty(command))
                             continue;
 
-                        Console.WriteLine("SERVER: Message recieved by client:" + command);
+                        Program.serverScreen.ShowMessage("SERVER: Message recieved by client:" + command);
                     }catch(Exception ex)
                     {
-                        Console.WriteLine("SERVER: Error: {0}", ex.Message);
+                        Program.serverScreen.ShowMessage(String.Format("SERVER: Error: {0}", ex.Message));
                         break;
                     }
 
@@ -377,7 +377,7 @@ namespace GameServerSync
                 */
             }
 
-            Console.WriteLine("SERVER: Client:" + socketForClient.RemoteEndPoint + " disconected from the server.");
+            Program.serverScreen.ShowMessage("SERVER: Client:" + socketForClient.RemoteEndPoint + " disconected from the server.");
             socketForClient.Close();
             
             //Console.ReadKey();
@@ -386,17 +386,28 @@ namespace GameServerSync
         public void Start()
         {
             tcpListener.Start();
-            Console.WriteLine("SERVER: Server started at {0}:{1}", serverIp, serverPort);
+            Program.serverScreen.ShowMessage(String.Format("SERVER: Server started at {0}:{1}", serverIp, serverPort));
 
-            while (true)
+            while (!done)
             {
-                //NAGLE
-                Socket socket = tcpListener.AcceptSocket();
-                ConfigureSocket.ConfigureTcpSocket(socket);
-                Console.WriteLine("SERVER: Client connected");
-                Thread newThread = new Thread(() => Listeners(socket));
-                newThread.Start();
+                if (tcpListener.Pending())
+                {
+                    Socket socket = tcpListener.AcceptSocket();
+                    ConfigureSocket.ConfigureTcpSocket(socket);
+                    Program.serverScreen.ShowMessage("SERVER: Client connected");
+                    Thread newThread = new Thread(() => Listeners(socket));
+                    newThread.Start();
+                }
+                
             }
+
+            Program.serverScreen.ShowMessage("SERVER: Server finished");
+            tcpListener.Stop();
+        }
+
+        public void Stop()
+        {
+            done = true;
         }
 
 
