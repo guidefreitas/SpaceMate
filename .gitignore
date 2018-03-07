@@ -27,6 +27,9 @@ SpaceMate.NetworkClient/TestResults/
 packages/
 TestResults/
 
+# Visual studio
+.vs/
+
 # globs
 Makefile.in
 *.DS_Store
