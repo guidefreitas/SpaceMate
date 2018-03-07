@@ -19,6 +19,24 @@ namespace SpaceMate
         Int32 serverPort = 0;
         Thread gameThread;
 
+        private string _hostSessionUUID;
+
+        public string HostSessionUUID
+        {
+            get
+            {
+                return _hostSessionUUID;
+            }
+            set
+            {
+                _hostSessionUUID = value;
+                if (tbSessionID.InvokeRequired)
+                {
+                    tbSessionID.Invoke(new MethodInvoker(delegate { tbSessionID.Text = _hostSessionUUID; }));
+                }
+            }
+        }
+
         public SpaceMateClient()
         {
             InitializeComponent();
@@ -66,6 +84,7 @@ namespace SpaceMate
 
             gameThread = new Thread(() => {
                 var game = new SpaceMateGame(isHost, sessionUUID, serverIpAddress, serverPort);
+                HostSessionUUID = game.sessionUUID;
                 game.Run();
             });
 

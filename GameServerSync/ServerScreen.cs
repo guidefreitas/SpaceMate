@@ -75,6 +75,7 @@ namespace GameServerSync
             if (server != null)
             {
                 server.Stop();
+                serverThread.Abort();
                 btStop.Enabled = false;
                 btStart.Enabled = true;
             }

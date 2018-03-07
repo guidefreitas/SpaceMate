@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/player1.png</File>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/player2.PNG</File>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/asteroid.png</File>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/laser.png</File>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/rocket.png</File>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/MainFont.spritefont</File>
+    <File>C:/Users/Guilherme/Desktop/SpaceMate/SpaceMate/Content/powerup.png</File>
+  </SourceFiles>
+</SourceFileCollection>

@@ -24,3 +24,9 @@ Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multi
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate.Common\obj\Debug\SpaceMate.Common.csproj.CoreCompileInputs.cache
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate.Common\obj\Debug\SpaceMate.Common.dll
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate.Common\obj\Debug\SpaceMate.Common.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.Common\bin\Debug\SpaceMate.Common.dll.config
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.Common\bin\Debug\SpaceMate.Common.dll
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.Common\bin\Debug\SpaceMate.Common.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.Common\obj\Debug\SpaceMate.Common.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.Common\obj\Debug\SpaceMate.Common.dll
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.Common\obj\Debug\SpaceMate.Common.pdb

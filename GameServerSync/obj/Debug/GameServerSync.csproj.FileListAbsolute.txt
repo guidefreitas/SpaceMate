@@ -34,3 +34,15 @@ Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multi
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\GameServerSync\obj\Debug\GameServerSync.csproj.CoreCompileInputs.cache
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\GameServerSync\obj\Debug\GameServerSync.exe
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\GameServerSync\obj\Debug\GameServerSync.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\bin\Debug\GameServerSync.exe.config
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\bin\Debug\GameServerSync.exe
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\bin\Debug\GameServerSync.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\bin\Debug\SpaceMate.Common.dll
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\bin\Debug\SpaceMate.Common.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\bin\Debug\SpaceMate.Common.dll.config
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\obj\Debug\GameServerSync.csprojResolveAssemblyReference.cache
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\obj\Debug\GameServerSync.ServerScreen.resources
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\obj\Debug\GameServerSync.csproj.GenerateResource.Cache
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\obj\Debug\GameServerSync.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\obj\Debug\GameServerSync.exe
+C:\Users\Guilherme\Desktop\SpaceMate\GameServerSync\obj\Debug\GameServerSync.pdb

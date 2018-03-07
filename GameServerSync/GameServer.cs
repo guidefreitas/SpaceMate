@@ -308,9 +308,15 @@ namespace GameServerSync
                 client.StreamWriter.WriteLine("connect_ok|{0}", client.UUID);
                 client.StreamWriter.Flush();
 
-                
-                while (true)
+                var listenerDone = false;
+                while (!listenerDone)
                 {
+                    if(!Thread.CurrentThread.IsAlive)
+                    {
+                        listenerDone = true;
+                        continue;
+                    }
+
                     string command = "";
 
                     try
@@ -366,15 +372,12 @@ namespace GameServerSync
                         
                 }
 
-                /*
-                try
-                {
-                    streamReader.Close();
-                    networkStream.Close();
-                    streamWriter.Close();
-                }
-                catch { }
-                */
+                client.StreamReader.Close();
+                client.StreamWriter.Close();
+                client.NetworkStream.Close();
+
+                Environment.Exit(0);
+
             }
 
             Program.serverScreen.ShowMessage("SERVER: Client:" + socketForClient.RemoteEndPoint + " disconected from the server.");
@@ -388,6 +391,8 @@ namespace GameServerSync
             tcpListener.Start();
             Program.serverScreen.ShowMessage(String.Format("SERVER: Server started at {0}:{1}", serverIp, serverPort));
 
+            List<Thread> listenersThreads = new List<Thread>();
+
             while (!done)
             {
                 if (tcpListener.Pending())
@@ -396,11 +401,16 @@ namespace GameServerSync
                     ConfigureSocket.ConfigureTcpSocket(socket);
                     Program.serverScreen.ShowMessage("SERVER: Client connected");
                     Thread newThread = new Thread(() => Listeners(socket));
+                    listenersThreads.Add(newThread);
                     newThread.Start();
                 }
                 
             }
 
+            foreach (var listenerThread in listenersThreads)
+            {
+                listenerThread.Abort();
+            }
             Program.serverScreen.ShowMessage("SERVER: Server finished");
             tcpListener.Stop();
         }

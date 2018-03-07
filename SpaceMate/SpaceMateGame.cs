@@ -23,7 +23,7 @@ namespace SpaceMate
 
         private List<String> MensagensAEnviar;
         private NetworkClient networkClient;
-        private String sessionUUID;
+        public String sessionUUID;
         private String clientUUID;
         Vector2 lastNetworkSendPlayerPosition;
 
@@ -61,6 +61,8 @@ namespace SpaceMate
                 //Comentar este codigo. Ele faz se conectar na primeira sessao do servidor
                 sessionUUID = networkClient.GetSessions().FirstOrDefault();
                 sessionUUID = networkClient.SubscribeSession(sessionUUID);
+
+                //networkClient.SubscribeSession(sessionJoinUUID);
             }
             
         }
@@ -260,6 +262,7 @@ namespace SpaceMate
                         if (player.Rectangle.Intersects(asteroid.Rectangle))
                         {
                             //Se bateu, remove o player, o asteroide, atualiza o número de mortes e recria o jogador
+                            /*
                             this.Players.RemoveAt(pCount);
                             this.Asteroids.RemoveAt(aCount);
                             scoreInfo.playersScoreInfo
@@ -270,6 +273,7 @@ namespace SpaceMate
 
                             String msg = $"send_data|{sessionUUID}|{clientUUID}|asteroid_destroied_player|{asteroid.UUID}|{player.ClientUUID}";
                             MensagensAEnviar.Add(msg);
+                            */
                         }
                     }
                     

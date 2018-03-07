@@ -32,3 +32,12 @@ Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multi
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.csproj.CoreCompileInputs.cache
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.dll
 Z:\Google Drive\DOCÊNCIA\Sociesc\2017\2017-2\2017-2 - TJG - Programação Multiplayer\2017-2 - Codigos\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\bin\Debug\SpaceMate.NetworkClient.dll
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\bin\Debug\SpaceMate.NetworkClient.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\bin\Debug\SpaceMate.Common.dll
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\bin\Debug\SpaceMate.Common.pdb
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\bin\Debug\SpaceMate.Common.dll.config
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.csprojResolveAssemblyReference.cache
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.dll
+C:\Users\Guilherme\Desktop\SpaceMate\SpaceMate.NetworkClient\obj\Debug\SpaceMate.NetworkClient.pdb
