@@ -36,49 +36,47 @@ namespace GameServerSync
             }
         }
 
+        private void StartGameServer(string ipAddress, int port)
+        {
+            server = new GameServer(ipAddress, port);
+            server.Start();
+        }
+
+        private void StartServerExceptionHandler(Task task)
+        {
+            if (tbAdress.InvokeRequired)
+            {
+                tbAdress.Invoke(new MethodInvoker(delegate { MessageBox.Show("Ocorreu um problema"); }));
+            }
+            
+        }
+
         private void btStart_Click(object sender, EventArgs e)
         {
-            try
-            {
-                tbMessages.Text = "";
+            tbMessages.Text = "";
 
-                String ipAddress = tbAdress.Text;
-                if (String.IsNullOrWhiteSpace(ipAddress))
-                    throw new Exception("Informe o endereço IP");
+            String ipAddress = tbAdress.Text;
+            if (String.IsNullOrWhiteSpace(ipAddress))
+                throw new Exception("Informe o endereço IP");
 
-                String portS = tbPort.Text;
-                if (String.IsNullOrWhiteSpace(portS))
-                    throw new Exception("Infome o número da porta");
+            String portS = tbPort.Text;
+            if (String.IsNullOrWhiteSpace(portS))
+                throw new Exception("Infome o número da porta");
 
-                int port = 0;
-                if (!Int32.TryParse(portS, out port))
-                    throw new Exception("Porta inválida");
+            int port = 0;
+            if (!Int32.TryParse(portS, out port))
+                throw new Exception("Porta inválida");
 
-                serverThread = new Thread(() => {
-                    server = new GameServer(ipAddress, port);
-                    server.Start();
-                });
-                serverThread.Start();
-                
-                btStart.Enabled = false;
-                btStop.Enabled = true;
-                ShowMessage("Servidor iniciado com sucesso.");
-            }catch(Exception ex)
-            {
-                ShowMessage("Ocorreu um problema");
-                MessageBox.Show(ex.Message);
-            }
+            var task = Task.Run((() => StartGameServer(ipAddress, port)));
+            task.ContinueWith(this.StartServerExceptionHandler, TaskContinuationOptions.OnlyOnFaulted);
+            btStart.Enabled = false;
+            btStop.Enabled = true;
+            ShowMessage("Servidor iniciado com sucesso.");
         }
 
         private void StopServer()
         {
-            if (server != null)
-            {
-                server.Stop();
-                serverThread.Abort();
-                btStop.Enabled = false;
-                btStart.Enabled = true;
-            }
+            Application.Exit();
         }
 
         private void btStop_Click(object sender, EventArgs e)

@@ -17,25 +17,7 @@ namespace SpaceMate
         String sessionUUID = "";
         String serverIpAddress = "";
         Int32 serverPort = 0;
-        Thread gameThread;
 
-        private string _hostSessionUUID;
-
-        public string HostSessionUUID
-        {
-            get
-            {
-                return _hostSessionUUID;
-            }
-            set
-            {
-                _hostSessionUUID = value;
-                if (tbSessionID.InvokeRequired)
-                {
-                    tbSessionID.Invoke(new MethodInvoker(delegate { tbSessionID.Text = _hostSessionUUID; }));
-                }
-            }
-        }
 
         public SpaceMateClient()
         {
@@ -43,10 +25,46 @@ namespace SpaceMate
             tbServerAddress.Text = "127.0.0.1";
             tbServerPort.Text = "11000";
             cbHost.Checked = true;
-            tbSessionID.Enabled = false;
+
+            lvRooms.Columns.Add("Name", -2, HorizontalAlignment.Left);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void RefreshListViewRoomNames()
+        {
+            serverPort = Convert.ToInt32(tbServerPort.Text);
+            serverIpAddress = tbServerAddress.Text;
+            NetworkClient client = new NetworkClient();
+            client.Connect(serverIpAddress, serverPort);
+
+            lvRooms.Items.Clear();
+            List<String> rooms = client.GetSessions();
+
+            foreach (var name in rooms)
+            {
+                var item = new ListViewItem(new[] { name });
+                lvRooms.Items.Add(item);
+            }
+            
+        }
+
+        public void StartGame()
+        {
+            var game = new SpaceMateGame(isHost, sessionUUID, serverIpAddress, serverPort);
+            game.Run();
+        }
+
+        void ExceptionHandler(Task task)
+        {
+            var exception = task.Exception;
+            MessageBox.Show("Ocorreu um problema: " + exception.Message);
+            if (tbSessionID.InvokeRequired)
+            {
+                tbSessionID.Invoke(new MethodInvoker(delegate { button1.Enabled = true; }));
+            }
+            
+        }
+
+        private void create_Click(object sender, EventArgs e)
         {
             if (String.IsNullOrWhiteSpace(tbServerAddress.Text))
             {
@@ -77,31 +95,59 @@ namespace SpaceMate
                 return;
             }
 
+            if (String.IsNullOrEmpty(tbSessionID.Text))
+            {
+                MessageBox.Show("Informe o nome da sessão");
+                return;
+            }
+
             serverPort = Convert.ToInt32(tbServerPort.Text);
             serverIpAddress = tbServerAddress.Text;
             isHost = cbHost.Checked;
             sessionUUID = tbSessionID.Text;
 
-            gameThread = new Thread(() => {
-                var game = new SpaceMateGame(isHost, sessionUUID, serverIpAddress, serverPort);
-                HostSessionUUID = game.sessionUUID;
-                game.Run();
-            });
-
-            gameThread.Start();
-            button1.Enabled = false;
+            StartGameTask();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void StartGameTask()
         {
-            if (cbHost.Checked)
+            Task task = new Task(this.StartGame);
+            task.ContinueWith(this.ExceptionHandler, TaskContinuationOptions.OnlyOnFaulted);
+            task.Start();
+
+            gbCreateRoom.Enabled = false;
+            gbJoinRoom.Enabled = false;
+            gbServerInfo.Enabled = false;
+        }
+
+        private void join_Click(object sender, EventArgs e)
+        {
+            if(lvRooms.SelectedItems.Count <= 0)
             {
-                tbSessionID.Enabled = false;
+                MessageBox.Show("Selecione uma sala");
             }
-            else
+            var roomName = lvRooms.SelectedItems[0].Text;
+            serverPort = Convert.ToInt32(tbServerPort.Text);
+            serverIpAddress = tbServerAddress.Text;
+            isHost = false;
+            sessionUUID = roomName.ToString();
+            StartGameTask();
+        }
+
+        private void refresh_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(tbServerAddress.Text))
             {
-                tbSessionID.Enabled = true;
+                MessageBox.Show("Informe o IP do servidor");
+                return;
             }
+
+            if (String.IsNullOrEmpty(tbServerPort.Text))
+            {
+                MessageBox.Show("Informe a porta do servidor");
+                return;
+            }
+            RefreshListViewRoomNames();
         }
     }
 }

@@ -52,17 +52,11 @@ namespace SpaceMate
             isSessionHost = isHost;
             if (isHost)
             {
-                sessionUUID = networkClient.CreateSession("Guilherme");
+                sessionUUID = networkClient.CreateSession(sessionJoinUUID);
             }
             else
             {
-                //sessionUUID = networkClient.SubscribeSession(sessionJoinUUID);
-
-                //Comentar este codigo. Ele faz se conectar na primeira sessao do servidor
-                sessionUUID = networkClient.GetSessions().FirstOrDefault();
-                sessionUUID = networkClient.SubscribeSession(sessionUUID);
-
-                //networkClient.SubscribeSession(sessionJoinUUID);
+                sessionUUID = networkClient.SubscribeSession(sessionJoinUUID);
             }
             
         }

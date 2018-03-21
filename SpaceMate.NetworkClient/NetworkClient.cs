@@ -31,14 +31,10 @@ namespace SpaceMate
         public String Connect(String ip, int port)
         {
             String clientUUID = "";
-            //socket = new Socket(SocketType.Stream, ProtocolType.Tcp);
-            //socket.NoDelay = true;
-            //socket.Connect(IPAddress.Parse(ip), port);
             tcpClient = new TcpClient();
             tcpClient.Connect(IPAddress.Parse(ip), port);
             tcpClient.NoDelay = true;
             ConfigureSocket.ConfigureTcpSocket(tcpClient.Client);
-            //socketForServer.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.NoDelay, true);
             networkStream = tcpClient.GetStream();
             streamReader = new System.IO.StreamReader(networkStream);
             streamWriter = new System.IO.StreamWriter(networkStream);

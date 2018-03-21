@@ -25,8 +25,6 @@ namespace GameServerSync
         private String serverIp = "";
         private Int32 serverPort = 0;
 
-        private bool done = false;
-
         public GameServer(String ip, int port)
         {
             serverIp = ip;
@@ -43,16 +41,23 @@ namespace GameServerSync
         {
             try
             {
+                
                 String[] data = command.Split('|');
                 GameSession session = new GameSession();
                 session.Name = data[1];
+                session.UUID = data[1];
+                if(this.Sessions.Where(x => x.UUID == session.UUID).Any())
+                {
+                    throw new Exception("Já existe sessão com o mesmo nome");
+                }
+
                 lock (sessionsLock)
                 {
                     session.Subscribers.Add(client);
                     Sessions.Add(session);
                 }
                 Program.serverScreen.ShowMessage(String.Format("Session created: UUID: {0}, Name: {1}", session.UUID, session.Name));
-                String returnData = String.Format("create_session_ok|{0}", session.UUID);
+                String returnData = String.Format("create_session_ok|{0}", session.Name);
                 client.StreamWriter.WriteLine(returnData);
                 client.StreamWriter.Flush();
             }
@@ -359,11 +364,6 @@ namespace GameServerSync
                     {
                         SendData(command, client);
                     }
-                    /* else if (command == "exit")
-                    {
-                        ExitClient(client);
-                        break;
-                    }*/
                     else
                     {
                         client.StreamWriter.WriteLine("ERROR|Invalid command");
@@ -376,14 +376,10 @@ namespace GameServerSync
                 client.StreamWriter.Close();
                 client.NetworkStream.Close();
 
-                Environment.Exit(0);
-
             }
 
             Program.serverScreen.ShowMessage("SERVER: Client:" + socketForClient.RemoteEndPoint + " disconected from the server.");
             socketForClient.Close();
-            
-            //Console.ReadKey();
         }
 
         public void Start()
@@ -391,35 +387,18 @@ namespace GameServerSync
             tcpListener.Start();
             Program.serverScreen.ShowMessage(String.Format("SERVER: Server started at {0}:{1}", serverIp, serverPort));
 
-            List<Thread> listenersThreads = new List<Thread>();
-
-            while (!done)
+            while (true)
             {
                 if (tcpListener.Pending())
                 {
                     Socket socket = tcpListener.AcceptSocket();
                     ConfigureSocket.ConfigureTcpSocket(socket);
                     Program.serverScreen.ShowMessage("SERVER: Client connected");
-                    Thread newThread = new Thread(() => Listeners(socket));
-                    listenersThreads.Add(newThread);
-                    newThread.Start();
+                    var task = Task.Run((() => Listeners(socket)));
                 }
                 
             }
-
-            foreach (var listenerThread in listenersThreads)
-            {
-                listenerThread.Abort();
-            }
-            Program.serverScreen.ShowMessage("SERVER: Server finished");
-            tcpListener.Stop();
         }
-
-        public void Stop()
-        {
-            done = true;
-        }
-
 
     }
 }
